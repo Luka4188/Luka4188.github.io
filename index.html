@@ -13,4 +13,10 @@
 <input type="button" value="Subscribe" onclick="window.location.href='https://www.youtube.com/channel/UCdvzCSLXC4FWB8wmM6PqOrg?view_as=subscriber'" />
 </form>
 
-<marquee>Make it scroll, baby!</marquee>
+<p id="demo" onclick="myFunction()">Dont click me.</p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+}
+</script>
