@@ -35,6 +35,9 @@ function myFunction() {
  	<script>
 
 
+
+<script>
+
 // Select fade-effect below:
 // Set 1 if the background may fade from dark to medium 
 // Set 2 if the background may fade from light to medium 
@@ -48,7 +51,7 @@ var fade_effect=3
 var gradient_effect="horizontal"
 
 // Speed higher=slower
-var speed=80
+var speed=60
 
 ///////////////////////////////////////////////////////////////////////////
 // CONFIGURATION ENDS HERE
@@ -80,7 +83,7 @@ if (fade_effect==4) {
 }
 if (fade_effect==5) {
 	var darkmax=1
-	var lightmax=45
+	var lightmax=80
 }
 var hexc = new Array('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F')
 
@@ -183,4 +186,6 @@ if (browserok) {
 	window.onload=setrandomcolor
 }
 </script>
+
+
 
